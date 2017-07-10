@@ -1,3 +1,19 @@
-page-home {
+@font-face{
+font-family: Lobster Two;
+src: url('https://fonts.gstatic.com/s/lobstertwo/v9/Law3VVulBOoxyKPkrNsAaI4P5ICox8Kq3LLUNMylGO4.woff2') format('woff2');
+}
 
+.ios, .md{
+  page-home {
+    h1{
+      font-size: 50px;
+      margin-top: 20%;
+      text-align: center;
+      font-family: Lobster Two;
+    }
+    button{
+      width: 80%;
+      margin: 4% 10%;
+    }
+  }
 }
